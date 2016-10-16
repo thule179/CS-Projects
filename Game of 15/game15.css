@@ -1,0 +1,26 @@
+h1{
+	text-align:center;
+	font-size:50px;
+	font-family:sans-serif;
+}
+p{
+	text-align:center;
+	font-family:sans-serif;
+	margin-left: 15%;
+	margin-right:15%;
+}
+#game_table{
+	margin-left:35%;
+	margin-right:30%;
+	margin-top:2%;
+	margin-bottom:50%;
+    table-layout: fixed;
+ 
+}
+#game_table button {
+	font-size:50px;
+	width:100px;
+	height:100px;
+	color: white;
+	background-color:#0EBFE9;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<title> Game of 15 </title>
+		<link rel = "stylesheet" type = "text/css" href = "game15.css"/>
+	</head>
+
+	<body>
+	    <h1> Game of 15 </h1>
+          <p> There are a total of 16 slots. One of the slots is empty. The other slots are occupied by 15 tiles, numbered from 1 through 15. Any tile next (either vertically or horizontally but not diagonally) to the currently empty slot can be moved into the currently empty slot by clicking on the tile. The goal is to arrange the tiles in sequential order row by row.
+		<table id = "game_table">
+
+		   <!-- first row-->
+      <tr>
+       <td id = "b00"><button onclick="swapButton()" type = "button" id = "1" ></button></td>
+       <td id = "b01"><button onclick="swapButton()" type = "button" id = "2"></button></td>
+       <td id = "b02"><button onclick="swapButton()" type = "button" id = "3"></button></td>
+       <td id = "b03"><button onclick="swapButton()" type = "button" id = "4"></button></td>
+      </tr>
+       <!-- end first row -->
+
+        <!-- second row-->
+      <tr>
+       <td id = "b10"><button onclick="swapButton()" type = "button" id  = "5"></button></td>
+       <td id = "b11"><button onclick="swapButton()" type = "button" id  = "6"></button></td>
+       <td id = "b12"><button onclick="swapButton()" type = "button" id  = "7"></button></td>
+       <td id ="b13"><button onclick="swapButton()" type = "button" id  = "8" ></button></td>
+      </tr>
+       <!-- end second row -->
+
+        <!-- third row-->
+      <tr>
+       <td id ="b20" ><button onclick="swapButton()" type = "button" id  = "9"></button></td>
+       <td id = "b21"><button onclick="swapButton()" type = "button" id  = "10"></button></td>
+       <td id = "b22"><button onclick="swapButton()" type = "button" id  = "11"></button></td>
+       <td id = "b23" ><button onclick="swapButton()" type = "button" id  = "12"></button></td>
+      </tr>
+       <!-- end third row -->
+
+        <!-- forth row-->
+      <tr>
+       <td id = "b30"><button onclick="swapButton()" type = "button" id  = "13"></button></td>
+       <td id = "b31"><button onclick="swapButton()" type = "button" id  = "14"></button></td>
+       <td id = "b32"><button onclick="swapButton()" type = "button" id  = "15"></button></td>
+       <td id ="b33"><button onclick="swapButton()" type = "button" id  = "16"></button></td>
+      </tr>
+       <!-- end fourth row -->
+
+		</table>
+	</body>
+	<script type = "text/javascript" src = "game15.js"></script>
+</html>
