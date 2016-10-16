@@ -1,14 +1,6 @@
-#  File: DNA.py
 
 #  Description: Find Longest Common Sequence between each pair of DNA strands
 
-#  Student Name: Thu Anh Le
-
-#  Student UT EID: tal864
-
-#  Course Name: CS 303E
-
-#  Unique Number: 51630
 
 #  Date Created: 3/23/2015
 
@@ -50,6 +42,7 @@ def dna_common():
     print('No Common Sequence Found')
     
   print(' ') 
+  
 def main():
   global dna
   common_list=[]
@@ -59,12 +52,4 @@ def main():
   dna_common()
 
   
-  
-  
-  
-
- 
-  
-
-  	
 main()

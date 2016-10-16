@@ -1,9 +1,10 @@
-#  File: waterjug.py
-#  Description: Universal water jug problem/ Breadth depth search/ Memoization
-#  Student's UT EID: tal864
-#  Course Name: CS 313E 
-#  Unique Number: 50597
-#
+
+#  To use this program, create an input file name 'jugdata.txt' with the format below:
+#  Sample 'jugdata.txt' file:
+# 	8 7 3
+# 	1 4
+# where the first line is the capacity of the jugs respectively [8,7,3]. The first number of the second line indicates the position of the jug you want and the second number indicates how many liters you want to be in that jug
+
 #  Date Created: 10/05/2015
 #  Date Last Modified: 10/07/2015
 

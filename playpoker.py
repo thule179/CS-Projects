@@ -1,10 +1,4 @@
-#  File: playpoker.py
-#  Description: Write a program that simulates a variation of Poker called "5-Card Draw"
-#  Student's Name: Thu Anh Le
-#  Student's UT EID: tal864
-#  Course Name: CS 313E 
-#  Unique Number: 50597
-#
+
 #  Date Created: 09/22/2015
 #  Date Last Modified: 09/24/2015
 

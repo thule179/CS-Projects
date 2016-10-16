@@ -2,18 +2,6 @@
 
 #  Description: find the location in the grid where the word can be found in a crossword
 
-#  Student Name: Thu Anh Le
-
-#  Student UT EID: tal864
-
-#  Partner Name: My cat
-
-#  Partner UT EID: My cat doesn't go to UT
-
-#  Course Name: CS 303E 
-
-#  Unique Number: 51630
-
 #  Date Created: 4/13/2015
 
 #  Date Last Modified: 4/15/2015

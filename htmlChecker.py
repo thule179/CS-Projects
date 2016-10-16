@@ -1,10 +1,6 @@
-#  File: htmlChecker.py
-#  Description: checking html tags and print out the process
-#  Student's Name: Thu Anh Le
-#  Student's UT EID: tal864
-#  Course Name: CS 313E 
-#  Unique Number: 50597
-#
+
+# To use this program, create a .txt file that contains your HTML source code and name it 'htmlfile.txt'
+
 #  Date Created: 10/18/2015
 #  Date Last Modified: 10/19/2015
 
