@@ -102,7 +102,7 @@ def main():
 	my_links = scrape_links("keyword")
 	my_titles = scrape_titles("keyword")
 	my_dates = scrape_dates("keyword")
-	my_publications = scrape_publications("keywordn")
+	my_publications = scrape_publications("keyword")
 
 
 	os.chmod('enter csv file location',755)
