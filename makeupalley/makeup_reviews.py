@@ -24,8 +24,8 @@ def getHTMLDoc():
 	loginPage = browser.get('https://www.makeupalley.com/account/login.asp')
 
 	form = loginPage.soup.find_all('form')[0]
-	form.find('input', {'name':'UserName'})['value'] = 'thule179'
-	form.find('input', {'name':'Password'})['value'] = '1791995e'
+	form.find('input', {'name':'UserName'})['value'] = 'username'
+	form.find('input', {'name':'Password'})['value'] = 'password'
 	page = browser.submit(form, loginPage.url)
 
 	# reviews with highest rating
